@@ -19,6 +19,8 @@
     }
 }
 
+//methodSignatureForSelector: 返回 nil ，Runtime 则会发出 -
+
 - (NSMethodSignature *)__cjr_methodSignatureForSelector:(SEL)selector
 {
     NSMethodSignature *signature = [super methodSignatureForSelector:selector];
